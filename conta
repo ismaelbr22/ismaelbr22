@@ -1,0 +1,23 @@
+do ABC importação ABC, método abstrato
+
+classe Conta(ABC):
+    def __init__(self, agencia, conta, saldo):
+        auto. __agenda = agencia
+        auto. __conta = conta
+        auto. __saldo = saldo
+
+
+    def agencia(self):
+        voltar a si mesmo. __agenda
+
+
+    def conta(self):
+        voltar a si mesmo. __conta
+
+    def saldo(self):
+        voltar a si mesmo. __saldo
+
+    def saldo(self, valor):
+        se não isinstance(valor,(int , float)):
+            aumento ValueError('O valor do saldo precisa ser númerico')
+        auto. __saldo = valor
