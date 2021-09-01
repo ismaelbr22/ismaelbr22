@@ -1,0 +1,8 @@
+classe Soma:
+
+    @staticmethod
+    def soma_numeros(numeros):
+        resultado = 0
+        para numero em numeros:
+            resultado = resultado + numero
+        resultado de retorno 
