@@ -1,0 +1,27 @@
+conta de classe :
+
+    def __init__(self, cliente, saldo):
+
+        auto. cliente = cliente
+        auto. saldo = saldo 
+
+
+    def depositar (self, valor):
+        se valor > 0:
+            auto. saldo += valor
+            impressão('Foi depositado:', valor)
+            impressão('Saldo total', self. saldo)
+        outra coisa:
+            impressão('Erro ao depositar, precisa ser maior que R$: 0,00')
+
+    def sacar(self, valor):
+        se eumesmo . saldo - valor < 0:
+            impressão("Saldo insuficiente")
+        outra coisa:
+            auto. saldo -= valor
+            impressão("Foi sacado o valor de:", valor)
+            imprimir("Seu saldo agora é de:", self. saldo)
+
+
+    def consulta_saldo(self):
+        voltar a si mesmo. saldo
