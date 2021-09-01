@@ -1,0 +1,5 @@
+de soma_numero importar Soma
+
+numeros = [1, 2 ,3, 4]
+resultado = Soma. soma_numeros(numeros)
+impressão('Soma de todos os valores do vetor = ' + str(resultado))
